@@ -1,0 +1,10 @@
+- criar a pasta base do projeto;
+- python -m venv ./venv
+- pit install django (dentro do ambiente virtual)
+- django-admin startproject setup . (setup é o nome do projeto)
+
+- python manage.py runserver (dentro venv)
+- python manage.py startapp xxxxxx
+- python manage.py makemigrations
+- python manage.py migrate
+- python manage.py createsuperuser
